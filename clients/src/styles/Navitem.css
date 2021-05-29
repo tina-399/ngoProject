@@ -1,0 +1,21 @@
+.navitem {
+  list-style: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.navitem a {
+  text-decoration: none;
+  color: #717274;
+}
+
+.navitem:hover a {
+  color: #c6267a;
+  transition: 0.3s ease;
+}
+
+.navitem .selected {
+  color: #c6267a;
+  text-decoration: underline;
+}

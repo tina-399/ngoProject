@@ -1,0 +1,17 @@
+.shop {
+  display: flex;
+  /* align-items: cen; */
+  justify-content: space-between;
+  /* background-image: url("../assets/images/clayton-webb-wc6vlRwhFEM-unsplash.jpg"); */
+  /* background-size: cover; */
+  /* height: 40rem; */
+  padding-bottom: 5rem;
+}
+
+.shop h1{
+  width: 100%;
+  text-align: center;
+  color: whitesmoke;
+  height: 5rem;
+  font-size: 2rem;
+}

@@ -1,0 +1,9 @@
+.aboutcard{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
+    width: 90%;
+    padding: 10px;
+    align-items: center;
+    position: relative;
+}

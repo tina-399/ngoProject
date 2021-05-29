@@ -1,0 +1,31 @@
+.nav {
+  display: flex;
+  padding: 0 10px;
+  justify-content: space-between;
+  align-items: center;
+  height: 20vh;
+  background: rgba(0, 0, 0, 0.11);
+}
+
+.nav > ul {
+  display: flex;
+  width: 60%;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+}
+.nav >:last-child{
+background-color:#54A8DB;
+padding:5px;
+border-radius: 5px;
+
+}
+
+.nav>:last-child>*{
+    color: white;
+}
+
+.nav > :last-child:hover{
+background-color: #717274;
+
+}

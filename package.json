@@ -1,0 +1,27 @@
+{
+  "name": "ngo-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js",
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "chai": "^4.3.4",
+    "cors": "^2.8.5",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "joi": "^17.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^8.3.2",
+    "mongoose": "^5.12.5",
+    "nodemon": "^2.0.7",
+    "stripe": "^8.148.0",
+    "styled-components": "^5.2.3",
+    "zustand": "^3.4.1"
+  }
+}

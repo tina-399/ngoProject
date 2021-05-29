@@ -1,0 +1,17 @@
+.cartitem {
+  display: grid;
+  width: 300px;
+  height: 460px;
+  grid-template-rows: 360px, 20px, 20px, 30px, 30px;
+  border: 1px solid #000;
+  padding: 0.5rem;
+  border-radius: 20px;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.cartitem > img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}

@@ -1,0 +1,18 @@
+.but {
+  font-size: 20px;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  background-color: rgba(162, 0, 255, 0.767);
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  display: inline-block;
+  cursor: pointer;
+  width: 80%;
+  border-radius: 50px;
+  margin: 20px 0;
+}
+
+.actionbut {
+  margin-top: 40px;
+}

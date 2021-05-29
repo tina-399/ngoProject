@@ -1,0 +1,59 @@
+.list-container {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  background-color: #ee82ee7c;
+  color: whitesmoke;
+  height: 100%;
+  border-radius: 20px;
+  text-align: left;
+  height: 22rem;
+  position: relative;
+  width: 100%;
+}
+
+.activity-card {
+  width: 30%;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+}
+.listimg {
+  height: 22rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
+  transition: 0.5s ease-in-out;
+  background-blend-mode: multiply;
+}
+
+.details {
+  cursor: pointer;
+  height: fit-content;
+  position: absolute;
+  bottom: -70%;
+  font-size: 1rem;
+  font-weight: 400;
+  transition: 0.5s ease-in-out;
+  padding: 0 0.5rem;
+  /* background-color: turquoise; */
+}
+.details > h3 {
+  margin-bottom: 1.5rem;
+}
+.details > p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+.activity-card:hover {
+  transform: scale(1.13);
+}
+.activity-card:hover .listimg {
+  background-color: #a31ba3d0;
+}
+.activity-card:hover .details {
+  bottom: 2%;
+  height: 15rem;
+}

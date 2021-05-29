@@ -1,0 +1,14 @@
+.list {
+  display: flex;
+  text-align: center;
+  list-style: none;
+  flex-wrap: wrap;
+  /* grid-template-columns: repeat(3,1fr); */
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  /* background-color:  rgba(0, 0, 255, 0.253); */
+  padding: 2rem;
+}
+

@@ -1,0 +1,6 @@
+.signnav {
+  display: flex;
+  width: 50%;
+  justify-content: space-evenly;
+  margin: auto;
+}
